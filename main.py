@@ -3,10 +3,11 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 """
-Future scope if I had more time: 
+Future scope if I had more time:
+-UI and text to speech functionality. 
 -Allow optional user feedback to guide revisions.
--Add lightweight story categorization (bedtime, adventure, moral-focused)
--Add simple unit tests for prompt construction and judge parsing
+-Add lightweight story categorization (bedtime, adventure, moral-focused).
+-Add simple unit tests for prompt construction and judge parsing.
 
 """
 
