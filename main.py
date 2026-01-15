@@ -2,15 +2,6 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 
-"""
-Future scope if I had more time:
--UI and text to speech functionality. 
--Allow optional user feedback to guide revisions.
--Add lightweight story categorization (bedtime, adventure, moral-focused).
--Add simple unit tests for prompt construction and judge parsing.
-
-"""
-
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
  
